@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rick and Morty</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_edit">Edit</string>
+</resources>

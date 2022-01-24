@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1723684210526316" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/drawable/ic_baseline_profile_24.xml" value="0.1723684210526316" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/character_card.xml" value="0.2" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_character_details.xml" value="0.5" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_characters.xml" value="0.3106904231625835" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_episodes.xml" value="0.22" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_episodes_details.xml" value="0.9" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_profile_user.xml" value="0.2" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_season1.xml" value="0.1" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_season2.xml" value="0.1" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_season3.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_season4.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/fragment_season5.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/item_characters.xml" value="0.1675213675213675" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/item_episodes.xml" value="0.3475274725274725" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/item_episodes.xmls" value="0.1188034188034188" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/menu/drawer_menu.xml" value="0.17192982456140352" />
+        <entry key="..\:/Users/USUARIO/Desktop/Android-Proyectos/ProyectoEC03/app/src/main/res/menu/toolbar_menu.xml" value="0.17192982456140352" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_episodes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSecondary"
+            app:tabSelectedTextColor="@color/teal_200"
+            app:tabTextColor="@color/colorText"
+            >
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_season_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEASON 1" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_season_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEASON 2" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_season_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEASON 3" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_season_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEASON 4" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_season_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEASON 5" />
+        </com.google.android.material.tabs.TabLayout>
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_episodes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        tools:ignore="SpeakableTextPresentCheck"></androidx.viewpager.widget.ViewPager>
+</LinearLayout>

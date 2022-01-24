@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSecondary"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/sv_characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorSecondaryLight"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center">
+        <TextView
+            android:layout_marginTop="11dp"
+            android:id="@+id/total_characters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL CHARACTERS: "
+            android:textColor="@color/colorText"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/page_characters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAGE:"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="11dp"
+            android:textSize="14dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toLeftOf="@+id/prev_page"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/prev_page"
+            android:layout_width="48dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toLeftOf="@+id/next_page"
+            app:icon="@drawable/previous"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next_page"
+            android:layout_width="48dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentEnd="true"
+            app:icon="@drawable/next"
+            app:iconGravity="end"
+            app:iconPadding="50dp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_characters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
